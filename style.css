@@ -1,0 +1,41 @@
+body{
+	background-image:url("bg.jpg");
+}
+.my-form{
+	width:600px;
+	background:rgba(0, 0, 0, .4);
+	margin: 100px auto;
+	padding:40px 20px;
+	border-radius:5px;
+}
+.my-form input{
+	display:block;
+	width:100%;
+	font-size:20px;
+	padding:5px;
+	border:1px solid green;
+	 background:transparent;
+	color:white;
+	border-radius:5px;
+}
+.my-form label{
+	color:#fff;
+	cursor:pointer;
+	padding:5px 0;
+	display:block;
+	font-size:20px;
+	font-family:tahoma;
+}
+.my-form input[type=submit]{
+	width:200px;
+	margin-top:10px;
+	cursor:pointer;
+}
+.my-form p{
+	color:white;
+	font-size:17px;
+	font-family:tahoma;
+}
+.my-form p a{
+	color:cyan;
+}
